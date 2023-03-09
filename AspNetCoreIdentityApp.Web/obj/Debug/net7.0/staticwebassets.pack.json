@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\AspNetCoreIdentityApp.Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\green_circle_20px.png",
+      "PackagePath": "staticwebassets\\Icons\\green_circle_20px.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\male_user_40px.png",
+      "PackagePath": "staticwebassets\\Icons\\male_user_40px.png"
+    },
+    {
       "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

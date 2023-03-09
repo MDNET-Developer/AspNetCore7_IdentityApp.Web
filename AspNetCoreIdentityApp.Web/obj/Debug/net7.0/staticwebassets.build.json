@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r+nmIYSfZdb27M8e1lxgJMObeGNdCjsK//jS85c4wQA=",
+  "Hash": "fH7MLsz7JDG56NHGI/yWg7V4oZ5jot49ICAW7QEy7VM=",
   "Source": "AspNetCoreIdentityApp.Web",
   "BasePath": "_content/AspNetCoreIdentityApp.Web",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\green_circle_20px.png",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/green_circle_20px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\green_circle_20px.png"
+    },
+    {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\male_user_40px.png",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/male_user_40px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\male_user_40px.png"
     },
     {
       "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\js\\site.js",

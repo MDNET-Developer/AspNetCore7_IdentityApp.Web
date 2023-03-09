@@ -1,0 +1,59 @@
+﻿@model SignUpViewModel
+@{
+    ViewData["Title"] = "SignUp";
+}
+
+<link href="d:\myprojects\new\aspnetcoreidentityapp\aspnetcoreidentityapp.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" />
+@section Scripts
+{
+    @await Html.PartialAsync("_ValidationScriptsPartial");
+}
+<style>
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid silver;
+        padding: 10px;
+    }
+</style>
+<br />
+
+<div class="center">
+<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <div class="@TempData["Bootstrap"]">
+        <h3>@TempData["Message"]</h3>
+    </div>
+    <br />
+    <h1 style="text-align:center">Qeydiyyat</h1>
+    <hr />
+    <form asp-controller="Home" asp-action="SignUp" method="post">
+    <div class="mb-3 mt-3">
+            <label for="text" class="form-label">İstifadəçi adı:</label>
+            <input type="text" class="form-control" asp-for="UserName" id="text">
+            <span class="text-danger" asp-validation-for="UserName"></span>
+    </div>
+       <div class="mb-3 mt-3">
+            <label for="text" class="form-label">Telefon nömrəsi:</label>
+            <input type="text" class="form-control" asp-for="PhoneNumber" id="text">
+            <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+    </div>
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" asp-for="Mail">
+            <span class="text-danger" asp-validation-for="Mail"></span>
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Şifrə:</label>
+            <input type="password" class="form-control" id="pwd" asp-for="Password">
+            <span class="text-danger" asp-validation-for="Password"></span>
+  </div>
+        <div class="mb-3">
+            <label for="pwd" class="form-label">Təkrar şifrə:</label>
+            <input type="password" class="form-control" id="pwd" asp-for="ComfirmPassword">
+            <span class="text-danger" asp-validation-for="ComfirmPassword"></span>
+        </div>
+  <button type="submit" class="btn btn-primary">Qeydiyyatdan keç</button>
+</form>
+</div>
+
+
