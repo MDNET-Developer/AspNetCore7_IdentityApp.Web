@@ -1,5 +1,8 @@
 ﻿using AspNetCoreIdentityApp.Web.Extensions;
 using AspNetCoreIdentityApp.Web.Models;
+using AspNetCoreIdentityApp.Web.Services;
+using AspNetCoreIdentityApp.Web.SettingsModel;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +15,26 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"));
 });
 
+//Buradan appsettingsJsonda yazdigimiz datalari uygun olaraq sinife configure etdik
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
+
+
+/*Tokenin omru buradan teyin edurik*/
+builder.Services.Configure<DataProtectionTokenProviderOptions>(opt =>
+{
+    opt.TokenLifespan = TimeSpan.FromMinutes(1);
+});
+
+
+/*SecurityStamp life time*/
+builder.Services.Configure<SecurityStampValidatorOptions>(opt =>
+{
+    opt.ValidationInterval = TimeSpan.FromMinutes(35);
+});
+
 builder.Services.IdentityExtension();
+builder.Services.AddScoped<IEmailService,EmailService>();
 builder.Services.ConfigureApplicationCookie(option =>
 {
     option.Cookie.Name = "Murad_Net";
@@ -52,8 +74,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.UseAuthorization();
+app.UseAuthentication();//1
+app.UseAuthorization();//2
 
 
 app.MapControllerRoute(

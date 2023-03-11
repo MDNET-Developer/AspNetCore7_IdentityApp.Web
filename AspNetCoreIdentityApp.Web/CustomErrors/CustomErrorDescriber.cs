@@ -5,6 +5,16 @@ namespace AspNetCoreIdentityApp.Web.CustomErrors
     public class CustomErrorDescriber : IdentityErrorDescriber
     {
         //stratup da/program.cs services.Identity olan hissede .AddErrorDescriber yazaq
+
+        public override IdentityError InvalidToken()
+        {
+            return new IdentityError()
+            {
+                Code = "InvalidToken",
+                Description = "Xəta !! Bu linkin vaxtı bitmişdir."
+            };
+        }
+
         public override IdentityError DuplicateUserName(string userName)
         {
             return new IdentityError()

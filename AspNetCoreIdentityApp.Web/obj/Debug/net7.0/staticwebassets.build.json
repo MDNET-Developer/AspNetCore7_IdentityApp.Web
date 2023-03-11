@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fH7MLsz7JDG56NHGI/yWg7V4oZ5jot49ICAW7QEy7VM=",
+  "Hash": "ZpTPcX/C47WIZfcGLdG5q/WuYlb3SwF04MTrN6aboXI=",
   "Source": "AspNetCoreIdentityApp.Web",
   "BasePath": "_content/AspNetCoreIdentityApp.Web",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\_user_99px.png",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/_user_99px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\_user_99px.png"
+    },
+    {
       "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\green_circle_20px.png",
       "SourceId": "AspNetCoreIdentityApp.Web",
       "SourceType": "Discovered",
@@ -102,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\Icons\\green_circle_20px.png"
     },
     {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\KingCsharp.jpeg",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/KingCsharp.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\KingCsharp.jpeg"
+    },
+    {
       "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\male_user_40px.png",
       "SourceId": "AspNetCoreIdentityApp.Web",
       "SourceType": "Discovered",
@@ -117,6 +151,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Icons\\male_user_40px.png"
+    },
+    {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\Sign In_35px.png",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/Sign In_35px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\Sign In_35px.png"
+    },
+    {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\sign_up_35px.png",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/sign_up_35px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\sign_up_35px.png"
     },
     {
       "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\js\\site.js",

@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\AspNetCoreIdentityApp.Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\KingCsharp.jpeg",
+      "PackagePath": "staticwebassets\\Icons\\KingCsharp.jpeg"
+    },
+    {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\Sign In_35px.png",
+      "PackagePath": "staticwebassets\\Icons\\Sign In_35px.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\_user_99px.png",
+      "PackagePath": "staticwebassets\\Icons\\_user_99px.png"
+    },
+    {
       "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\green_circle_20px.png",
       "PackagePath": "staticwebassets\\Icons\\green_circle_20px.png"
     },
     {
       "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\male_user_40px.png",
       "PackagePath": "staticwebassets\\Icons\\male_user_40px.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\sign_up_35px.png",
+      "PackagePath": "staticwebassets\\Icons\\sign_up_35px.png"
     },
     {
       "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\css\\site.css",
