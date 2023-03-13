@@ -12,8 +12,5 @@ namespace AspNetCoreIdentityApp.Web.ViewModel
         [Required(ErrorMessage = "Yeni təkrar şifrəni daxil edin")]
         [Compare("NewPassword", ErrorMessage = "Daxil etdiyiniz şifrə, təkrar şifrə ilə eyni deyil")]
         public string? NewConfirmPassword { get; set; }
-
-        [Required(ErrorMessage = "Doğrulama kodunu daxil edin!!!")]
-        public string? Captcha { get; set; }
     }
 }

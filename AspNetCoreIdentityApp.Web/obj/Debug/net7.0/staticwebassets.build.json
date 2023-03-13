@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZpTPcX/C47WIZfcGLdG5q/WuYlb3SwF04MTrN6aboXI=",
+  "Hash": "7t1Ry8Um6NUAud4zQyNG1ZcoEzYs92PHi3id7fAqzdw=",
   "Source": "AspNetCoreIdentityApp.Web",
   "BasePath": "_content/AspNetCoreIdentityApp.Web",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Icons\\sign_up_35px.png"
+    },
+    {
+      "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\synchronize_30px.png",
+      "SourceId": "AspNetCoreIdentityApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIdentityApp.Web",
+      "RelativePath": "Icons/synchronize_30px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\synchronize_30px.png"
     },
     {
       "Identity": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\js\\site.js",

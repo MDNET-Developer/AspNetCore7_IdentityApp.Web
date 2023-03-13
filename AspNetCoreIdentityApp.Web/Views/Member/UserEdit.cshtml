@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "UserEdit";
+}
+@model UserEditViewModel
+<link href="d:\myprojects\new\aspnetcoreidentityapp\aspnetcoreidentityapp.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" />
+@section Scripts
+    {
+    @await Html.PartialAsync("_ValidationScriptsPartial");
+}
+<style>
+
+    body {
+        margin-top: 20px;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    #Yenile {
+        font-size: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 10.3px;
+    }
+
+    .disableedit{
+        background-color: linear-gradient(to right, #ee5a6f, #f29263);
+    }
+</style>
+<div class="container">
+    <h1 class="text-primary">Profilə düzəliş et</h1>
+    <hr>
+
+    <form asp-controller="Member" asp-action="UserEdit"  class="form-horizontal" role="form" enctype=multipart/form-data>
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-3">
+                <div class="text-center">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                    <h6>Fərqli şəkil yükləyin...</h6>
+
+                    <input type="file" asp-for="PictureUrl" class="form-control">
+                    <br />
+                    <div class="alert alert-primary" role="alert">
+                        Şifrəni daxil etdikdən sonra məlumatlar üzərində dəyişiklik edə bilərsiniz
+                        <input class="form-control" asp-for="Password" type="password">
+                    </div>
+                    <button  id="Yenile" class="btn btn-primary form-control"><img src="/Icons/synchronize_30px.png" /> Yenilə</button>
+                </div>
+            </div>
+
+            <!-- edit form column -->
+            <div class="col-md-5 personal-info">
+                <h3>Şəxsi məlumat</h3>
+                <br />
+
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">İstifadəçi adı</label>
+                    <div class="col-lg-8">
+                        <input  class="form-control disableedit" readonly asp-for="UserName" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Mail:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control disableedit" readonly asp-for="Mail" type="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Telefon:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" asp-for="PhoneNumber" type="tel">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Şəhər:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" asp-for="City" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Doğum tarixi:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" asp-for="BirthDay" type="date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Cinsiyyət:</label>
+                    <div class="col-lg-3">
+                        <select class="form-control" asp-for="Gender" asp-items="ViewBag.Gender">
+                            <option value="">Cinsiyyət seçin</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="margin-left:-2cm" class="col-md-4  InfoMessage">
+                <div class="@TempData["Bootstrap"]">
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                    @TempData["Message"]
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<hr>

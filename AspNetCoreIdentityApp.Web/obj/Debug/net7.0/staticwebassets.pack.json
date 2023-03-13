@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\Icons\\sign_up_35px.png"
     },
     {
+      "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\Icons\\synchronize_30px.png",
+      "PackagePath": "staticwebassets\\Icons\\synchronize_30px.png"
+    },
+    {
       "Id": "D:\\MyProjects\\NEW\\AspNetCoreIdentityApp\\AspNetCoreIdentityApp.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

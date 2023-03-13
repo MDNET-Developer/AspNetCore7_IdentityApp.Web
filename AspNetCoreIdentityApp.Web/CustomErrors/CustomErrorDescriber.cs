@@ -6,6 +6,14 @@ namespace AspNetCoreIdentityApp.Web.CustomErrors
     {
         //stratup da/program.cs services.Identity olan hissede .AddErrorDescriber yazaq
 
+        public override IdentityError PasswordMismatch()
+        {
+            return new IdentityError()
+            {
+                Code = "PasswordMismatch",
+                Description = "Xəta !! köhnə şifrənizi daxil etməsəz şifrə yeniləmək mümkün olmayacaq"
+            };
+        }
         public override IdentityError InvalidToken()
         {
             return new IdentityError()
